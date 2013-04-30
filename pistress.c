@@ -49,8 +49,8 @@ int main(int argc, char *argv[]) {
   int y;
   for (y = 1; y < 5; y++) {
     printf("Test %i\n",y);
-    double time = primetime();
-    float temp = gettemp();
+    time = primetime();
+    temp = gettemp();
     printf("  CPU temp: %.2f\260C\n",temp);
     printf("  Time taken: %gs\n",time);
     printf("\n");
